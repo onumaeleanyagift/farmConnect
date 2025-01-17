@@ -1,0 +1,145 @@
+body,
+html {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup-container {
+  height: 100vh;
+}
+
+.left-panel {
+  background: url(img/crops.jpeg);
+  color: white;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  height: 100vh;
+}
+ 
+.logo {
+  width: 200px;
+  height: 230px;
+  filter: brightness(0) invert(1);
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #080b0a;
+}
+
+.toggle-btns {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+  overflow: hidden;
+}
+
+.toggle-btn {
+  border: none;
+  padding: 10px 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+  background-color: #6bbf59;
+  color: #FFFF
+}
+
+.toggle-btn.active:hover {
+    color: #FFFF;
+}
+
+.toggle-btn.inactive {
+  background-color: #c2bbbb66;
+  color: #080b0a80;
+}
+
+.toggle-btn.inactive:hover {
+    background-color: #cac6c6;
+}
+
+.toggle-btn.inactive a:hover {
+    color: #080b0a80;
+}
+
+.custom-radius {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.custom-radius-II {
+    border-radius: 0px 20px 20px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  padding: 12px 0px 12px 30px;
+  border-radius: 10px;
+  border: 1px solid #080b0abf 75%;
+}
+
+#produce {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9 "></polyline></svg>');
+  background-repeat: no-repeat;
+  background-position: right 30px center;
+  background-size: 16px;
+}
+
+.produce-type {
+  color: #636c72;
+}
+
+
+/* .pw-toggle {
+    position: absolute;
+    top: 72.5%;
+    right: 80px;
+    transform: translateY(0, -50%);
+    cursor: pointer;
+}
+
+.fa-regular{
+    color: black;
+} */
+
+.terms {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px 30px 10px;
+}
+
+.terms a {
+    text-decoration: solid;
+    color: #6bbf59;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.signup-btn {
+  background-color: #6bbf59;
+  color: #ffff;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.signup-btn:hover {
+    background-color: #63ad52;
+    color: #ffff;
+}
