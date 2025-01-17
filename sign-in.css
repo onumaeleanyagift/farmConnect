@@ -1,0 +1,110 @@
+body,
+html {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.signin-container {
+  height: 100vh;
+}
+
+.left-panel {
+  background: url(img/crops.jpeg);
+  color: white;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 200px;
+  height: 230px;
+  filter: brightness(0) invert(1);
+  margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #080b0a;
+    margin-bottom: 50px;
+  }
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 12px 0px 12px 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+  }
+
+
+ .forgot-p a {
+    text-decoration: solid;
+    color: inherit;
+ }
+
+ .forgot-p a:hover {
+    color: #6bbf59;
+ }
+
+  .signin-btn {
+    background-color: #6bbf59;
+    color: #ffff;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .signin-btn:hover {
+    background-color: #63ad52;
+    color: #ffff;
+}
+
+.divider {
+    display: flex;
+    align-items: center ;
+    text-align: center;
+  }
+
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #000;
+  }
+
+  .divider:not(:empty)::before {
+    margin-right: 10px;
+  }
+
+  .divider:not(:empty)::after {
+    margin-left: 10px;
+  }
+
+ .alt-signin {
+    margin-top: 20px;
+ } 
+
+.alt-signinBtn {
+    background-color: #000;
+    color: #ffff;
+    font-weight: bold;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+    transition: calc(1.2);
+  }
+
+.alt-signinBtn img {
+    padding-right: 10px;
+}
