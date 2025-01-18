@@ -43,14 +43,18 @@ h1 {
     border: 1px solid #000;
   }
 
+.forgot-p {
+  display: flex;
+  justify-content: space-between;
+}
 
  .forgot-p a {
     text-decoration: solid;
-    color: inherit;
+    color: #63ad52;
  }
 
  .forgot-p a:hover {
-    color: #6bbf59;
+    text-decoration: underline;
  }
 
   .signin-btn {
