@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Style  -->
+    <link rel="stylesheet" href="category.css" />
+
+    <!-- Java Script  -->
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Buyers Dashboard</title>
+  </head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- sidebar  -->
+             <div class="col-md-2 sidebar">
+                <div class="logo"><img src="img/logo2.png" alt="farmConnect logo"></div>
+                
+                <a href="buyers-db.html" class="inactive"><i class="bi bi-grid "></i>My Dashboard</a>
+            
+                <a href="#" class="active"><i class="bi bi-list"></i>Category</a>
+                <a href="profile.html" class="inactive"><i class="bi bi-person"></i>Profile</a>
+                <a href="rate-us.html" class="inactive"><i class="bi bi-star"></i>Rate Us</a>
+                <a href="message.html" class="inactive"><i class="bi bi-chat-left-text"></i>Message</a>
+                <a href="notification.html" class="inactive"><i class="bi bi-bell"></i>Notification</a>
+                <a href="settings.html" class="inactive"><i class="bi bi-gear"></i>Settings</a>
+                <a href="help-center.html" class="inactive"><i class="bi bi-telephone"></i>Help Center</a>
+                <a href="sign-in.html" class="inactive"><i class="bi bi-box-arrow-left"></i></i>Sign Out</a>
+             </div>
+
+              <!-- main  -->
+              <div class="col-md-10">
+                <div class="search-bar col-md-11">
+                    
+                    <input type="text" class="form-control"  placeholder="Search">
+                </div>
+
+        
+                <div class="toggle-btns d-flex col-md-2">
+                    <button class="toggle-btn active" id="productsToggle"  onclick="productsClick()">
+                      <i class="bi bi-cart3"></i>PRODUCTS
+                    </button>
+                    <button class="toggle-btn inactive" id="storeToggle"  onclick="storeClick()">
+                        <i class="bi bi-shop-window"></i>STORE
+                    </button>
+                  </div> 
+                    
+                    <div class="categories  d-flex flex-wrap mt-4"> 
+                        <button class="category">LIVESTOCK</button> 
+                        <button class="category">FRUITS & VEGETABLES</button> 
+                        <button class="category">OTHERS</button>
+                        <button class="category">GRAINS</button> 
+                        <button class="category">SEED & NUTS</button> 
+                        <button class="category">TUBERS</button> 
+                        <button class="category">OIL</button> 
+                    </div>
+              </div>
+
+    
+</body>
+</html>
