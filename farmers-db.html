@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Style  -->
+    <link rel="stylesheet" href="farmers-db.css" />
+
+    <!-- Java Script  -->
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>FarmConnect Sign In</title>
+  </head>
+<body>
+    <div class="container-fluid">
+        <div class="row db-container">
+
+            <!-- Left panel -->
+        <div class="col-md-5 left-panel">
+            <div class="row">
+            <div>
+                <img src="img/logo2.png" alt="FarmConnect Logo" class="logo" />
+              </div>
+        </div>
+    </div>
+
+        <!-- Right panel  -->
+<div class="col-md-6 d-flex flex-column justify-content-center p-">
+        <h1>Welcome to FarmConnect</h1>
+      <form>
+        <div class="form-group"> <label for="category"></label> <select class="form-control" id="category"> <option>Category</option></select> </div>
+
+        <div class="form-group"> <label for="type"></label> <select class="form-control" id="type"> <option>Type</option> 
+         </select> </div>
+
+         <div class="form-group"> <label for="description"></label> <textarea class="form-control" id="description" rows="3" placeholder="Description"></textarea> </div>
+
+         <div class="form-group"> <label for="price"></label> <input type="number" class="form-control" id="price" placeholder="#Price"> </div>
+
+         <div>
+         <p>Add Product</p>
+         <p class="text-muted">Add at least 1 photo for this category</p>
+        </div>
+
+         <div class="form-group add-image-container"> <label for="photo" class="image-box">
+            <span class="plus">+</span>
+         </label> 
+            
+            <input type="file" class="form-control-file" id="photo" accept=".jpg, .png"> 
+         </div>
+         <div class="form-text text-muted">Supported formats are .jpg & .png
+        </div>
+      </form>
+
+      <div class="submit-btn">
+        <div><button type="submit" class="btn">Post Product</button> </div>
+      <div><small class="form-text text-muted"> By clicking on post product, you accept the <a href="#">Terms of use</a>, confirm and declare that this posting does not include any prohibited item. </small></div>
+    </div>
+ 
+
+ </div>
+    
+    
+</body>
+</html>
