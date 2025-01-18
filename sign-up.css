@@ -102,19 +102,6 @@ a {
   color: #636c72;
 }
 
-
-/* .pw-toggle {
-    position: absolute;
-    top: 72.5%;
-    right: 80px;
-    transform: translateY(0, -50%);
-    cursor: pointer;
-}
-
-.fa-regular{
-    color: black;
-} */
-
 .terms {
     display: flex;
     justify-content: space-between;
