@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Style  -->
+    <link rel="stylesheet" href="buyers-db.css" />
+
+    <!-- Java Script  -->
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Buyers Dashboard</title>
+  </head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- sidebar  -->
+             <div class="col-md-2 sidebar">
+                <div class="profile-pic"><img src="" alt=""></div>
+                
+                <a href="#" class="active"><i class="bi bi-grid "></i>My Dashboard</a>
+            
+                <a href="category.html" class="inactive"><i class="bi bi-list"></i>Category</a>
+                <a href="profile.html" class="inactive"><i class="bi bi-person"></i>Profile</a>
+                <a href="rate-us.html" class="inactive"><i class="bi bi-star"></i>Rate Us</a>
+                <a href="message.html" class="inactive"><i class="bi bi-chat-left-text"></i>Message</a>
+                <a href="notification.html" class="inactive"><i class="bi bi-bell"></i>Notification</a>
+                <a href="settings.html" class="inactive"><i class="bi bi-gear"></i>Settings</a>
+                <a href="help-center.html" class="inactive"><i class="bi bi-telephone"></i>Help Center</a>
+                <a href="sign-in.html" class="inactive"><i class="bi bi-box-arrow-left"></i></i>Sign Out</a>
+             </div>
+
+             <!-- main  -->
+              <div class="col-md-10">
+                <div class="search-bar col-md-11">
+                    
+                    <input type="text" class="form-control"  placeholder="Search">
+                </div>
+
+                <!-- products -->
+                 <div class="row g-3 products">
+                    
+                    <div class="col-md-3">
+                        <div class="product-card">
+                            <img src="img/livestock.png" alt="Goat">
+                            <div class="price">Price/Quantity: <br>#115,000 only</div>
+                            <button class="btn btn-block"><i class="bi bi-chat"></i>Let's Talk</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="product-card">
+                            <img src="img/others.png" alt="Tomato">
+                            <div class="price">Price/Quantity: <br>#50,000/1 basket of Tomato</div>
+                            <button class="btn btn-block"><i class="bi bi-chat"></i>Let's Talk</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="product-card">
+                            <img src="img/tubers.png" alt="Yam">
+                            <div class="price">Price/Quantity: <br>#50,000/50 tubers of yam</div>
+                            <button class="btn btn-block"><i class="bi bi-chat"></i>Let's Talk</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="product-card">
+                            <img src="img/grains.png" alt="Rice">
+                            <div class="price">Price/Quantity: <br>#120,000/per bag of rice</div>
+                            <button class="btn btn-block"><i class="bi bi-chat"></i>Let's Talk</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="product-card">
+                            <img src="img/oil.png" alt="Oil">
+                            <div class="price">Price/Quantity: <br>#3,200/per litre</div>
+                            <button class="btn btn-block"><i class="bi bi-chat"></i>Let's Talk</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="product-card">
+                            <img src="img/seeds and nuts.png" alt="Seeds & Rubber">
+                            <div class="price">Price/Quantity: <br>#11,000/per rubber</div>
+                            <button class="btn btn-block"><i class="bi bi-chat"></i>Let's Talk</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="product-card">
+                            <img src="img/property.png" alt="property">
+                            <div class="price">Price/Quantity: <br>#10,000,000/per plot</div>
+                            <button class="btn btn-block"><i class="bi bi-chat"></i>Let's Talk</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="product-card">
+                            <img src="img/fruits.png" alt="Fruits">
+                            <div class="price">Price/Quantity: <br>#50,000/per basket</div>
+                            <button class="btn btn-block"><i class="bi bi-chat"></i>Let's Talk</button>
+                        </div>
+                    </div>
+
+
+                 </div>
+              </div>
+        </div>
+    </div>
+    
+</body>
+</html>
