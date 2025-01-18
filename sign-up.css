@@ -126,6 +126,11 @@ a {
   width: 100%;
 }
 
+.signup-btn a {
+  text-decoration: none;
+  color: #FFF;
+}
+
 .signup-btn:hover {
     background-color: #63ad52;
     color: #ffff;
