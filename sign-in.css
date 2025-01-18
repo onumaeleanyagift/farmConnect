@@ -67,6 +67,11 @@ h1 {
     margin-top: 50px;
   }
 
+  .signin-btn a {
+    text-decoration: none;
+    color: #FFF;
+  }
+
   .signin-btn:hover {
     background-color: #63ad52;
     color: #ffff;
