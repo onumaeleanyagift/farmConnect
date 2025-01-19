@@ -68,6 +68,9 @@
 - `settings.css`: Styling for the Settings Page.
 - `sign-in.css`: Styling for the Sign-In Page.
 
+### **JavaScript File**
+- `script.js`: Contains interactivity and dynamic functionality for the sign up page only.
+
 ### **Images**
 - The `img` folder contains image assets used across the platform, such as product images, banners, and logos.
 
