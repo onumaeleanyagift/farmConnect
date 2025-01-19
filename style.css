@@ -232,6 +232,8 @@ h1 {
   padding: 20px 40px;
   color: #FFF;
   border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .fifth-section a:hover {
