@@ -96,6 +96,11 @@ h1 {
   border-radius: 10px;
 }
 
+.first-section a:hover {
+  color: #FFF;
+  background-color: #08A045;
+}
+
 .first-section img {
   width: 880px;
   height: 636px;
@@ -125,6 +130,12 @@ h1 {
   text-decoration: none;
   border-radius: 10px;
   padding: 10px 80px;
+}
+
+.second-section a:hover {
+  background-color: #08A045;
+  color: #FFF;
+  border: 1px solid #FFF;
 }
 
 .third-section {
@@ -184,6 +195,12 @@ h1 {
   font-weight: 500;
 }
 
+.fourth-section a:hover {
+  background-color: #DFF2E4;
+  color: #08A045;
+  border: 1px solid #08A045;
+}
+
 .fifth-section .why-card {
   background-color: #08A045;
   color: #FFF;
@@ -215,6 +232,12 @@ h1 {
   padding: 20px 40px;
   color: #FFF;
   border-radius: 10px;
+}
+
+.fifth-section a:hover {
+  background-color: #FFF;
+  color: #08A045;
+  border: 1px solid #08A045;
 }
 
 footer {
