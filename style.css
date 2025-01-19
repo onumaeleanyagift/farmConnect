@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px 0px 150px;
+  align-items: center;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.nav-item {
+  margin-right: 50px;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #08A045;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.nav-link:hover {
+  color: #08A045;
+  text-decoration: underline;
+}
+
+
+.btns {
+  margin-left: 200px;
+}
+
+.btns a {
+  text-decoration: none;
+  color: #08A045;
+  font-weight: 600;
+  font-size: 32px;
+  border-radius: 10px;
+}
+
+.btns a:first-child {
+  color: #08A045;
+  background-color: #FFF;
+  border: 1px solid #08A045;
+}
+
+.btns a:first-child:hover {
+  color: #FFF;
+  background-color: #08A045;
+  border: 1px solid #08A045;
+}
+
+.btns a:last-child {
+  color: #FFF;
+  background-color: #08A045;
+  border: 1px solid #08A045;
+}
+
+.btns a:last-child:hover {
+  background-color: #FFF;
+  color: #08A045;
+}
+
+.first-section {
+  margin: 100px 0px 150px 200px;
+}
+
+h1 {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.first-section p {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.first-section a {
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #44F072;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.first-section img {
+  width: 880px;
+  height: 636px;
+}
+
+.second-section {
+  background-color: #08A045;
+  color: #FFF;
+  font-weight: 700;
+  padding: 80px 60px;
+}
+
+.second-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.second-section p {
+  font-size: 24px;
+}
+
+.second-section a {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 80px;
+}
+
+.third-section {
+  padding: 100px;
+}
+
+.third-section .card {
+  background-color: #08A045;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 10px;
+  width: 406px;
+  height: 242px;
+}
+
+.third-section h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+  color: #08A045;
+}
+
+.fourth-section {
+  background-color: #DFF2E4;
+}
+
+.fourth-section h2 {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #08A045;
+}
+
+.fourth-section .card {
+  border: 2px solid #08A045;
+  width: 433px;
+  height: 374px;
+}
+
+.fourth-section h4 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.fourth-section p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fourth-section .btn {
+  background-color: #08A045;
+  color: #FFF;
+  padding: 10px 50px;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.fifth-section .why-card {
+  background-color: #08A045;
+  color: #FFF;
+  justify-content: space-between;
+  width: 406px;
+  height: 242px;
+}
+
+.fifth-section h2 {
+  color: #08A045;
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.fifth-section h4 {
+  font-size: 24px;
+  font-weight: 600;
+
+}
+
+.fifth-section p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fifth-section .btn {
+  background-color: #08A045;
+  padding: 20px 40px;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+
+footer h5 {
+  color: #08A045;
+  font-size: 20px;
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 20px;
+  max-width: 600px;
+}
